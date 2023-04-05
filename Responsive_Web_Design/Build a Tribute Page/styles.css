@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background-color: #FAEBD7;
+  }
+  
+  #title {
+      text-align: center;
+  }
+  
+  .name {
+    color: #006400;
+  }
+  
+  #image {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #img-caption {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  #tribute-info {
+    margin-top: 5px;
+  }
+  
+  .tribute {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
