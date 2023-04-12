@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Schibsted+Grotesk&display=swap');
+
+body {
+  background: url("https://wallpaperaccess.com/full/1719895.jpg");
+  display:flex;
+}
+
+.container {
+  margin: 3.125rem auto 0 auto;
+}
+
+.header {
+  font-family: 'Chivo Mono', monospace;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#survey-form {
+  font-family: 'Chivo Mono', monospace;
+  color: #FFFFFF;
+  background: rgba(26, 26, 50, 0.8);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 2%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 1rem auto;
+  padding: 0.1rem;
+}
+
+#submit {
+  transition-duration: 0.2s;
+}
+
+#submit:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+

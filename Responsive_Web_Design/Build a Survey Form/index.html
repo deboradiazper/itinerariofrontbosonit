@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Build a Survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+
+  <body>
+   <div class="container">
+      <header class="header">
+        <h1 id="title">Videogames Survey Form</h1>
+        <p id="description">
+          A survey form to get to know better your videogames taste
+        </p>
+      </header>
+
+
+      <form id="survey-form">
+
+        <!--basic inputs-->
+        <div class="group">
+          <label id="name-label" for="name">Name</label>
+          <input type="text" name="name" max id="name"     class="form-control" placeholder="Your name" required>
+        </div>
+        <div class="group">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+        </div>
+        <div class="group">
+          <label id="number-label" for="number">Age</span>
+          </label>
+          <input type="number" name="age" id="number" min="14" max="90" class="form-control" placeholder="Age">
+        </div>
+
+         <!--radius check-->
+        <div class="group">
+          <p>How often do you play videogames?</p>
+          <label><input name="often" value="every-day" type="radio" class="input-radio" checked="">Every day</label>
+          <label><input name="often" value="every-week" type="radio" class="input-radio">Every week</label>
+          <label><input name="often" value="sometimes" type="radio" class="input-radio">Sometimes</label>
+           <label><input name="often" value="never" type="radio" class="input-radio">Never</label>
+        </div>
+      
+        <!--checkbox-->
+        <div class="group">
+          <p>Which genre do you prefer?
+          </p>
+          <select id="dropdown" name="genre"   class="form-control" required>
+            <option value="sandbox">Sandbox</option>
+            <option value="shooter">Shooters (FPS)</option>
+            <option value="rpg">Role-playing</option>
+            <option value="action">Action-adventure</option>
+            <option value="platformer">Platformer</option>
+          </select>
+        </div>
+
+        <!--select game-->
+        <div class="group">
+          <p>
+            Do you know these games? Select all that apply
+          </p>
+
+          <label><input name="games" value="tekken" type="checkbox" class="input-checkbox">Tekken 3</label>
+          <label><input name="games" value="zelda" type="checkbox" class="input-checkbox">The Legend of Zelda Saga</label>
+          <label><input name="games" value="last-of-us" type="checkbox" class="input-checkbox">The Last of Us 2</label>
+          <label><input name="games" value="celeste" type="checkbox" class="input-checkbox">Celeste</label>
+          <label><input name="games" value="kingdom-hearts" type="checkbox" class="input-checkbox">Kingdom Hearts 2</label>
+          <label><input name="games" value="super-mario" type="checkbox" class="input-checkbox">Super Mario Bros Saga</label>
+          <label><input name="games" value="blasphemous" type="checkbox" class="input-checkbox">Blasphemous</label>
+          <label><input name="games" value="hollow-knight" type="checkbox" class="input-checkbox">Hollow Knight</label>
+        </div>
+
+        <!--comments-->
+        <div class="group">
+          <p>What are your thoughts about videogames in general?</p>
+          <textarea id="thoughts" class="input-textarea" name="thoughts" placeholder="Let us know what you think"></textarea>
+        </div>
+
+
+        <!--button-->
+        <div class="group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
