@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+    top: 0;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-img {
+  width: 200px;
+  height: auto;
+}
+
+.ul {
+  width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

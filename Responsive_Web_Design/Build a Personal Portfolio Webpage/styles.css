@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto+Mono&display=swap');
+
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background: #D7BDE2;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    text-decoration: none; 
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #D7BDE2;
+}
+
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #D7BDE2;    
+}
+
+#projects {
+ 
+}
+
+#contact {
+  background-color: black;
+  color: #D7BDE2;
+}
+
+footer {
+  background-color: black;
+  color: #D7BDE2;
+  margin: 0;
+}
+
+
