@@ -20,7 +20,8 @@ justify-content: space-around;
     align-items: center;
 box-sizing: border-box;
 font-size: 1.5em;
-background: #AFAFAF;
+background: #682D5D;
+left: 0;
 }
 
 
@@ -47,10 +48,22 @@ nav {
 
 a:link, a:visited {
     text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    padding-left: 0.5em;
 }
 
 #about {
     margin-top: 150px;    
+}
+
+.desc h2{
+    border: 3px solid #682D5D;
+    border-radius: 3px;
+    padding: 0.2em;
 }
 
 #how-it-works {
@@ -81,8 +94,8 @@ a:link, a:visited {
 }
 
 .product > .level {
-    background-color: #ddd;
-    color: black;
+    background-color: #682D5D;
+    color: #FFFFFF;
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -92,12 +105,13 @@ a:link, a:visited {
 .product > button {
     border: 0;
     margin: 15px 0;
-    background-color: #AFAFAF;
+    background-color: #682D5D;
     font-weight: 400;
+    color: #ffffff;
 }
 
-.product > ol {
-    margin: 15px 0;
+.product a {
+    padding: 0.2em
 }
 
 .btn {
@@ -110,7 +124,7 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-#hero {
+#nws {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,28 +134,29 @@ a:link, a:visited {
     margin-top: 50px;
 }
 
-#hero input[type='submit'] {
+#nws input[type='submit'] {
     max-width: 150px;
     width: 100%;
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: #AFAFAF;
+    background-color: #682D5D;
+    color: #FFFFFF;
 }
 
-footer {
+.footer {
     margin-top: 30px;
-    padding: 20px;        margin: 0;
-    padding: 0;
-    background-color: AFAFAF;
+    padding: 1em;        
+    left: 0;
+    background-color: #682D5D;
 }
 
-footer > ul {
+.footer > ul {
     display: flex;
     justify-content: flex-end;
 }
 
-footer > ul > li {
+.footer > ul > li {
     padding: 0 10px;
 }
 
@@ -158,7 +173,6 @@ footer > span {
 
     box-sizing: border-box;
 }
-
 
 
 
